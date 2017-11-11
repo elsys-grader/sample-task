@@ -1,0 +1,4 @@
+FROM elsysgrader/python-grading-common:latest
+COPY task.py task.py
+
+CMD python task.py
